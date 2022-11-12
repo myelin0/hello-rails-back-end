@@ -1,24 +1,68 @@
-# README
+# hello-rails-back-end
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Description
+### Set up a "Hello world" project with two apps
+This project is connecting React on the front-end to Ruby-on-Rails on the backend. The app displays random messages contained in the database table. **This is the back end repo**.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby On Rails
+- Rack-cors gem
+- Rubocop
+- Git
 
-* System dependencies
 
-* Configuration
+## Setup
+Clone the repo and run bundle install in the command line to install the dependencies
 
-* Database creation
+```bash
+$ git clone https://github.com/myelin0/hello-rails-back-end
+$ cd hello-rails-back-end
 
-* Database initialization
+## Install gems with:
 
-* How to run the test suite
+```bash
+$ bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Run the application
+``` 
+$ rails server
+```
 
-* Deployment instructions
+### Visit the homepage of application
+```
+$ http://localhost:3000/api/v1/greetings
+```
+### Check linter errors
+```
+$ rubocop .
+```
+## Front-End
 
-* ...
+You can access the front-end of this application via [this link](https://github.com/myelin0/hello-react-front-end).
+
+  ## Author 
+  
+👤 **Emirjeta Veisllari**
+
+- GitHub: [@myelin0](https://github.com/myelin0)
+- Twitter: [@Amy_Albania](https://twitter.com/Amy_albania)
+- LinkedIn: [@Emirjeta Veisllari](https://www.linkedin.com/in/emirjeta-veisllari/)
+
+<hr>
+
+  ## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/myelin0/hello-rails-react/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
